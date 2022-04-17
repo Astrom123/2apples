@@ -1,4 +1,6 @@
 package apples.gameschedule.model
 
-class UserDto {
-}
+data class UserDto(
+    val id: Long,
+    val name: String
+)
